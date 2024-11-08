@@ -1,0 +1,21 @@
+@import url("./reset.css");
+@import url("./home.css");
+
+.main-page {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  color: #e6e6e6;
+  background: #19191f;
+}
+
+.main-text,
+.main-intro,
+.video {
+  min-height: 100vh;
+}

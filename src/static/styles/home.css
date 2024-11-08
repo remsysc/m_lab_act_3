@@ -1,0 +1,72 @@
+.main-intro {
+  display: flex;
+  justify-content: center;
+  align-items: self-start;
+  margin-top: 7em;
+}
+
+.typewriter {
+  text-align: center;
+  min-width: 100vw;
+}
+.typewriter h1 {
+  color: #e6e6e6;
+  overflow: hidden;
+  white-space: wrap;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end);
+  font-size: 5em;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.nav {
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+  animation-delay: 3.5s;
+  height: fit-content;
+  font-size: 3em;
+  display: flex;
+  padding: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+.nav-wrapper a {
+  text-decoration: none;
+  color: #fffbfb;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.text-wrapper {
+  border: dashed 0.5em #e6e6e6;
+  border-radius: 2.2em;
+  height: fit-content;
+  margin: 2em;
+  width: 55vw;
+  overflow: auto;
+  padding: 1em;
+}
+
+.text-wrapper p {
+  font-size: 2.2em;
+  padding: 1.5em;
+  text-align: center;
+}
